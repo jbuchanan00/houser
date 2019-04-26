@@ -1,33 +1,40 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background-color: #afd4c0;
+  
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.fullHeader{
+  background-color: #519872;
+  height: 10vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+}
+.navBar{
+  display: flex;
+  align-items: center;
+}
+.logo{
+  margin: 20px;
+}
+.houserName{
+  margin: 10px;
+  display: flex;
+  font-size: 2em;
   color: white;
+  font-weight: 700;
 }
-
-.App-link {
-  color: #61dafb;
+.container{
+  display: flex;
+  border: solid 1px black;
+  width: 75vw;
+  flex-direction: column;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.individualHouses{
+  border: 1px solid #000;
 }
